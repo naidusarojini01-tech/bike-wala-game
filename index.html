@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D High Speed Superbike Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <div id="ui-container">
+        <div id="speedometer">
+            <span id="speed">0</span> <span id="unit">KM/H</span>
+        </div>
+        <div id="instructions">
+            <p><strong>Controls:</strong></p>
+            <p>🚀 Up Arrow / W : Accelerate (Max 700 KM/H)</p>
+
+            <p>🛑 Down Arrow / S : Brake</p>
+            <p>⬅️ ➡️ Left / Right or A / D : Steer</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
